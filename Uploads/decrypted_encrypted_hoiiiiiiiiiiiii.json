@@ -1,0 +1,17 @@
+{
+    "name": "Alice",
+    "age": 30,
+    "city": "Wonderland",
+    "is_student": false,
+    "courses": [
+        "Mathematics",
+        "Physics",
+        "Literature"
+    ],
+    "grades": {
+        "Mathematics": "A",
+        "Physics": "B+",
+        "Literature": "A-"
+    }
+}
+
