@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOLD File Encryption Service</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f0f2f5; /* Light background color */
+            display: flex;
+            flex-direction: column; /* Use column direction */
+            justify-content: center; /* Center vertically */
+            align-items: center; /* Center horizontally */
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #b3e0ff; /* Light blue background for the container */
+            padding: 40px; /* Padding for container */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for the container */
+            text-align: center; /* Center align text inside the container */
+            max-width: 600px; /* Limit the width of the container */
+        }
+
+        h1 {
+            color: #FFD700; /* Gold color */
+            font-weight: bold; /* Bold font for title */
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Slight shadow for gold effect */
+            font-size: 2.5rem; /* Font size for title */
+        }
+
+        p {
+            font-size: 1.1rem; /* Font size for paragraph */
+            color: #333; /* Dark text color */
+        }
+
+        .btn-primary {
+            background-color: #003366; /* Dark blue for primary button */
+            border-color: #003366; /* Match border color */
+            color: white; /* White text color */
+        }
+
+        .btn-secondary {
+            background-color: #6c757d; /* Gray for secondary button */
+            border-color: #6c757d; /* Match border color */
+            color: white; /* White text color */
+        }
+
+        footer {
+            text-align: center; /* Center the footer text */
+            margin-top: 20px; /* Space above footer */
+            color: #fff; /* White text color */
+            font-size: 0.9rem; /* Font size for footer */
+            background-color: #79b0e7; /* Blue background for the footer */
+            width: 100%; /* Full width */
+            position: relative; /* Relative positioning */
+            bottom: 0; /* Position at the bottom */
+            padding: 10px 0; /* Padding for footer */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>GOLD Encryption Service</h1>
+        <p>Your Trusted Partner for Secure File Encryption and Decryption</p>
+        <div class="mt-4">
+            <a href="{{ url_for('upload_file') }}" class="btn btn-primary btn-lg me-2">Upload Your Files</a>
+            <a href="{{ url_for('decrypt_file') }}" class="btn btn-secondary btn-lg">Decrypt Your Files</a>
+        </div>
+        <p class="mt-4">Experience peace of mind with our user-friendly service designed for businesses and individuals alike.</p>
+    </div>
+
+    <footer>
+        <p>SecureTech Solutions - Your Encryption Partner</p>
+        <p>Privacy Policy | Terms & Conditions | Contact Us</p>
+    </footer>
+</body>
+
+</html>
