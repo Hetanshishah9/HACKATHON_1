@@ -1,0 +1,12 @@
+{
+    "forecast": {
+      "city": "Los Angeles",
+      "date": "2024-10-05",
+      "temperature": {
+        "high": 75,
+        "low": 65
+      },
+      "condition": "Sunny"
+    }
+  }
+  

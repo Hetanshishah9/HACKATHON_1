@@ -1,0 +1,17 @@
+{
+    "events": [
+      {
+        "title": "Tech Conference",
+        "date": "2024-11-05",
+        "location": "New York",
+        "attendees": 300
+      },
+      {
+        "title": "AI Workshop",
+        "date": "2024-11-10",
+        "location": "San Francisco",
+        "attendees": 150
+      }
+    ]
+  }
+  

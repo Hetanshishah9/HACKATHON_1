@@ -1,0 +1,14 @@
+2024-10-02 08:44:47,048 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-02 08:44:47,048 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-02 08:44:47,062 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-02 08:44:47,324 - WARNING -  * Debugger is active!
+2024-10-02 08:44:47,339 - INFO -  * Debugger PIN: 645-789-521
+2024-10-02 08:44:52,178 - INFO -  * Detected change in 'C:\\Users\\hetan\\OneDrive\\Desktop\\hack\\app.py', reloading
+2024-10-02 08:44:52,424 - INFO -  * Restarting with watchdog (windowsapi)
+2024-10-02 08:44:52,645 - WARNING -  * Debugger is active!
+2024-10-02 08:44:52,660 - INFO -  * Debugger PIN: 645-789-521
+2024-10-02 08:45:58,982 - INFO -  * Detected change in 'C:\\Users\\hetan\\OneDrive\\Desktop\\hack\\app.py', reloading
+2024-10-02 08:45:58,982 - INFO -  * Detected change in 'C:\\Users\\hetan\\OneDrive\\Desktop\\hack\\file_tranfer\\app.py', reloading
+2024-10-02 08:45:58,990 - INFO -  * Detected change in 'C:\\Users\\hetan\\OneDrive\\Desktop\\hack\\file_tranfer\\app.py', reloading
+2024-10-02 08:45:59,151 - INFO -  * Restarting with watchdog (windowsapi)

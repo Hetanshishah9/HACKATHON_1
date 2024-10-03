@@ -1,0 +1,17 @@
+{
+    "inventory": [
+      {
+        "product_id": "101",
+        "name": "Laptop",
+        "price": 999.99,
+        "quantity": 50
+      },
+      {
+        "product_id": "102",
+        "name": "Mouse",
+        "price": 19.99,
+        "quantity": 150
+      }
+    ]
+  }
+  
